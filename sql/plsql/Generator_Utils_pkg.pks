@@ -13,6 +13,8 @@
     PROCEDURE generate_inserts_with_output_line(pTbl in varchar2);
 	  PROCEDURE generate_inserts_by_table_name(pTableName in varchar2);
 
+    PROCEDURE generate_updates(pTbl in varchar2);
+
     --PROCEDURE export_inserts_file(pFileName in varchar2);
 
 END GENERATOR_UTILS;
